@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7da68e03-23a8-4a9f-b97c-5bb06fd0c5a0" name="Default Changelist" comment="netty-learning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7da68e03-23a8-4a9f-b97c-5bb06fd0c5a0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/netty-first/.gradle/" />
     <ignored path="$PROJECT_DIR$/netty-first/build/" />
@@ -119,15 +119,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/TextWebSocketHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="12" selection-start-line="12" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/WebSocketChannelInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
@@ -148,13 +139,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="184">
               <caret line="12" selection-start-line="12" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/GlobalChannelGroup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="253">
@@ -163,10 +154,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClientHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
+            <state relative-caret-position="437">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
@@ -184,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-10-nio-multi-port-chat/src/main/java/top/dzou/nio/multi_port_chat/WxQClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
+            <state relative-caret-position="368">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -196,7 +196,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/ServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
+            <state relative-caret-position="1081">
               <caret line="51" column="28" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
             </state>
           </provider>
@@ -205,7 +205,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
+            <state relative-caret-position="345">
               <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -229,7 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-8-grpc-stream-demo/src/main/java/top/dzou/grpc/client_stream_single_stream/GrpcClient.java" />
         <option value="$PROJECT_DIR$/netty-8-grpc-stream-demo/src/main/java/top/dzou/grpc/client_stream_server_stream/GrpcClient.java" />
         <option value="$PROJECT_DIR$/netty-8-grpc-stream-demo/src/main/java/top/dzou/grpc/client_stream_server_single/GrpcClient.java" />
         <option value="$PROJECT_DIR$/netty-8-grpc-stream-demo/src/main/java/top/dzou/grpc/client_single_server_stream/GrpcClient.java" />
@@ -280,6 +279,7 @@
         <option value="$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/TextWebSocketHandler.java" />
         <option value="$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClient.java" />
         <option value="$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClientHandler.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -330,6 +330,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -337,12 +339,15 @@
               <item name="netty" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="netty" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-7-grpc-demo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -527,11 +532,20 @@
       <workItem from="1572018827802" duration="26000" />
       <workItem from="1572138754718" duration="1015000" />
       <workItem from="1572162023612" duration="9084000" />
+      <workItem from="1572180633694" duration="416000" />
     </task>
+    <task id="LOCAL-00001" summary="netty-learning">
+      <created>1572180864531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572180864531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147716000" />
+    <option name="totallyTimeSpent" value="148132000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1682" height="1052" extended-state="6" />
@@ -548,9 +562,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946293" weight="0.3072687" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946293" weight="0.30707762" />
       <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49946293" weight="0.32793522" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33904108" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.33789954" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053704" side_tool="true" weight="0.31387666" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
@@ -605,14 +619,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="netty-learning" />
+    <option name="LAST_COMMIT_MESSAGE" value="netty-learning" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/charset/StandardCharsets.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/nio/channels/Selector.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -826,20 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-10-nio-multi-port-chat/src/main/java/top/dzou/nio/multi_port_chat/WxQClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/ServerInitializer.java">
+    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/TextWebSocketHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="15" selection-start-line="15" selection-end-line="26" />
+          <caret line="12" selection-start-line="12" selection-end-line="52" />
         </state>
       </provider>
     </entry>
@@ -859,14 +860,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/Server.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
+        <state relative-caret-position="184">
           <caret line="12" selection-start-line="12" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/ServerInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" selection-start-line="15" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-10-nio-multi-port-chat/src/main/java/top/dzou/nio/multi_port_chat/WxQClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
+        <state relative-caret-position="345">
           <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -874,31 +906,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/gzh_client/GzhClientHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/TextWebSocketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="12" selection-start-line="12" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/server/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="51" column="28" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/netty-11-wxq-websocket-socket-chat/src/main/java/top/dzou/netty/websocket_socket/GlobalChannelGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>

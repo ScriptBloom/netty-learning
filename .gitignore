@@ -4,3 +4,24 @@
 /*/D:
 /*/out
 /*/build
+将删除 netty-10-nio-multi-port-chat/src/main/resources/
+将删除 netty-10-nio-multi-port-chat/src/test/
+将删除 netty-11-wxq-websocket-socket-chat/src/test/
+将删除 netty-2-socket/src/main/resources/
+将删除 netty-2-socket/src/test/
+将删除 netty-3-mult-client/src/main/resources/
+将删除 netty-3-mult-client/src/test/
+将删除 netty-4-heartBeat/src/main/resources/
+将删除 netty-4-heartBeat/src/test/
+将删除 netty-5-websocket/src/test/
+将删除 netty-6-google-protobuf/src/main/resources/
+将删除 netty-6-google-protobuf/src/test/
+将删除 netty-6-google-protobuf/target/generated-sources/
+将删除 netty-7-grpc-demo/src/main/resources/
+将删除 netty-7-grpc-demo/src/test/
+将删除 netty-8-grpc-stream-demo/src/main/resources/
+将删除 netty-8-grpc-stream-demo/src/test/
+将删除 netty-9-nio/src/main/resources/
+将删除 netty-9-nio/src/test/
+将删除 netty-first/src/main/resources/
+将删除 netty-first/src/test/
