@@ -23,7 +23,7 @@
         <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/netty-11-wxq-chat" />
         <option name="gradleHome" value="/opt/gradle/gradle-5.3" />
         <option name="useAutoImport" value="true" />
