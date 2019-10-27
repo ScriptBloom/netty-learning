@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>mly-聊天室</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- jquery -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="https://cdn.bootcss.com/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 style="float: left">明理苑-聊天室</h1>
+    <div>
+        <form onsubmit="return false">
+<!--            <div class="form-group">-->
+                <textarea class="form-control" rows="10" id="textArea"></textarea>
+                <input name="msg" type="text" class="form-control" id="inputArea"/>
+            <button type="submit"  class="btn" id="button1">发送</button>
+<!--            </div>-->
+        </form>
+
+    </div>
+</body>
+<script >
+
+    $('#button1').on('click', sendMsg());
+    var socket;
+    if(window.WebSocket){
+        socket = new WebSocket("ws://localhost:8089/");
+        socket.onclose = function () {
+            var text = document.getElementById("textArea");
+            text.value = text.value+"\n"+"连接关闭！";
+        };
+        socket.onmessage = function (event) {
+            var text = document.getElementById("textArea");
+            text.value = text.value+"\n"+event.data;
+        };
+        socket.onopen = function () {
+            var text = document.getElementById("textArea");
+            text.value = "连接开启！";
+        }
+    }else {
+        alert("浏览器不支持websocket！")
+    }
+
+    function sendMsg() {
+        return function () {
+            var msg = document.getElementById("inputArea").value;
+            console.log(msg)
+            if(!window.WebSocket||msg==null||msg==""){
+                alert("msg不能为空");
+                return;
+            }
+            if(socket.readyState==WebSocket.OPEN){
+                // alert(msg);
+                socket.send(msg);
+            }else {
+                alert("连接未开启！")
+            }
+        }
+    }
+</script>
+</html>
