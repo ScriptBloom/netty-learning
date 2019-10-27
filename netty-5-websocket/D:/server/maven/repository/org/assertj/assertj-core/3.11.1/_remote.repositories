@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:12:32 CST 2019
+assertj-core-3.11.1.pom>nexus-aliyun=
+assertj-core-3.11.1.jar>nexus-aliyun=
+assertj-core-3.11.1.jar>alimaven=
+assertj-core-3.11.1.pom>alimaven=

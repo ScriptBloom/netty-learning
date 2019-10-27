@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>mly-聊天室</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <!-- jquery -->
+    <script type="text/javascript" src="/static/jquery/jquery.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/static/bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1 style="float: left">明理苑-聊天室</h1>
+    <table>
+        <form>
+            <div class="form-group">
+                <textarea class="form-control" rows="10" id="textArea"/>
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="inputArea"/>
+                <input type="button" class="btn" value="发送" onclick="sendMsg(document.getElementById('inputArea').value)"/>
+            </div>
+        </form>
+    </table>
+</body>
+<script type="text/javascript">
+    var socket;
+    if(window.WebSocket){
+        socket = new WebSocket("ws://localhost:8899/ws");
+        socket.onclose = function () {
+            var text = document.getElementById("textArea");
+            text.value = text.value+"\n"+"连接关闭！";
+        };
+        socket.onmessage = function (event) {
+            var text = document.getElementById("textArea");
+            text.value = text.value+"\n"+event.data;
+        };
+        socket.onopen = function () {
+            var text = document.getElementById("textArea");
+            text.value = "连接开启！";
+        }
+    }else {
+        alert("浏览器不支持websocket！")
+    }
+
+    function sendMsg(msg) {
+        if(!window.WebSocket||msg==null||msg==""){
+            return;
+        }
+        if(socket.readyState==WebSocket.OPEN){
+            socket.send(msg);
+        }else {
+            alert("连接未开启！")
+        }
+    }
+</script>
+</html>

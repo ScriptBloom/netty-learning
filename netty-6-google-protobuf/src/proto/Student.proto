@@ -1,0 +1,36 @@
+syntax = "proto2";
+package top.dzou.netty;
+option optimize_for = SPEED;
+option java_package = "top.dzou.netty";
+option java_outer_classname = "MyDataInfo";
+
+
+message DataInfo{
+     enum DataType{
+          StudentType = 1;
+          ParentType = 2;
+          FriendType = 3;
+     }
+     required DataType data_type = 1;
+     oneof dataBody{
+          Parent parent = 2;
+          Student student = 3;
+          Friend friend = 4;
+     }
+}
+message Student{
+     optional string name = 1;
+     optional int32 id = 2;
+     optional string email = 3;
+}
+message Friend{
+     optional  string name = 1;
+     optional int32 id = 4;
+     optional string address = 2;
+     optional string phone = 3;
+}
+message Parent{
+     optional string name = 1;
+     optional int32 id = 4;
+     optional string phone = 3;
+}

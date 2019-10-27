@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:12:32 CST 2019
+logback-classic-1.2.3.pom>alimaven=
+logback-classic-1.2.3.pom>nexus-aliyun=
+logback-classic-1.2.3.jar>nexus-aliyun=
+logback-classic-1.2.3.jar>alimaven=

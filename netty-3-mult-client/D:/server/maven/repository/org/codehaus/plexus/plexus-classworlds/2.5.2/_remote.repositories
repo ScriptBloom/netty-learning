@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:26:14 CST 2019
+plexus-classworlds-2.5.2.pom>nexus-aliyun=
+plexus-classworlds-2.5.2.jar>nexus-aliyun=
+plexus-classworlds-2.5.2.jar>alimaven=
+plexus-classworlds-2.5.2.pom>alimaven=

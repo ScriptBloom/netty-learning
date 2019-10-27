@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="netty-7-grpc-demo:main" external.linked.project.path="$MODULE_DIR$/../../netty-7-grpc-demo" external.root.project.path="$MODULE_DIR$/../../netty-7-grpc-demo" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../netty-7-grpc-demo" rootProjectPath="$MODULE_DIR$/../../netty-7-grpc-demo" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../netty-7-grpc-demo/out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../netty-7-grpc-demo/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-7-grpc-demo/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-7-grpc-demo/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: com.google.protobuf:protobuf-java:3.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-api:1.24.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-stub:1.24.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.google.guava:guava:26.0-android" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-protobuf:1.24.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.grpc:grpc-netty:1.24.0" level="project" />
+  </component>
+</module>

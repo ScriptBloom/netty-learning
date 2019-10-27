@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="netty-6-google-protobuf" external.linked.project.path="$MODULE_DIR$/../../netty-6-google-protobuf" external.root.project.path="$MODULE_DIR$/../../netty-6-google-protobuf" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="" externalSystemModuleVersion="unspecified" linkedProjectId="netty-6-google-protobuf" linkedProjectPath="$MODULE_DIR$/../../netty-6-google-protobuf" rootProjectPath="$MODULE_DIR$/../../netty-6-google-protobuf" />
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="true">
+    <content url="file://$MODULE_DIR$/../../netty-6-google-protobuf">
+      <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/out" />
+      <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Bundled Protobuf Distribution" level="application" />
+  </component>
+</module>

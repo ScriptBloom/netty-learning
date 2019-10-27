@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:25:49 CST 2019
+commons-logging-1.1.1.jar>nexus-aliyun=
+commons-logging-1.1.1.pom>alimaven=
+commons-logging-1.1.1.pom>nexus-aliyun=

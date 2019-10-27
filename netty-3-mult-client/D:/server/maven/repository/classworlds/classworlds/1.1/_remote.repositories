@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:24:30 CST 2019
+classworlds-1.1.pom>nexus-aliyun=
+classworlds-1.1.jar>nexus-aliyun=
+classworlds-1.1.jar>alimaven=
+classworlds-1.1.pom>alimaven=

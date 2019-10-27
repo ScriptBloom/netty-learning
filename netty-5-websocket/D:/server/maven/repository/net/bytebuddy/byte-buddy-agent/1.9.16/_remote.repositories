@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Oct 12 17:12:32 CST 2019
+byte-buddy-agent-1.9.16.pom>nexus-aliyun=
+byte-buddy-agent-1.9.16.jar>nexus-aliyun=
+byte-buddy-agent-1.9.16.jar>alimaven=
+byte-buddy-agent-1.9.16.pom>alimaven=

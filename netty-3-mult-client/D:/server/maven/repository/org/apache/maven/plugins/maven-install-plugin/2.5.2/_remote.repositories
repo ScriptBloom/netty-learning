@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:26:33 CST 2019
+maven-install-plugin-2.5.2.pom>nexus-aliyun=
+maven-install-plugin-2.5.2.jar>nexus-aliyun=
+maven-install-plugin-2.5.2.jar>alimaven=
+maven-install-plugin-2.5.2.pom>alimaven=

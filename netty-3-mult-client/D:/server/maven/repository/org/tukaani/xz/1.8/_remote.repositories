@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:26:14 CST 2019
+xz-1.8.pom>nexus-aliyun=
+xz-1.8.jar>nexus-aliyun=
+xz-1.8.jar>alimaven=
+xz-1.8.pom>alimaven=

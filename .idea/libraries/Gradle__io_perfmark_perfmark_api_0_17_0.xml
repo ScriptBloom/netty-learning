@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.perfmark:perfmark-api:0.17.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.17.0/97e81005e3a7f537366ffdf20e11e050303b58c1/perfmark-api-0.17.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.17.0/de7f5ee703568965c414179c285232310f6c73c9/perfmark-api-0.17.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

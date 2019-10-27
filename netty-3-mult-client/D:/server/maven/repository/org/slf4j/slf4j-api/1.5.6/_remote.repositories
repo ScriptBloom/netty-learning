@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Oct 13 21:26:32 CST 2019
+slf4j-api-1.5.6.jar>nexus-aliyun=
+slf4j-api-1.5.6.pom>alimaven=
+slf4j-api-1.5.6.pom>nexus-aliyun=
