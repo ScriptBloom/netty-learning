@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7da68e03-23a8-4a9f-b97c-5bb06fd0c5a0" name="Default Changelist" comment="">
+    <list default="true" id="7da68e03-23a8-4a9f-b97c-5bb06fd0c5a0" name="Default Changelist" comment="netty-learning">
       <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -47,34 +47,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="DockManager">
-    <window id="1">
-      <content type="file-editors">
-        <state>
-          <leaf>
-            <file pinned="false" current-in-tab="true">
-              <entry file="file://$PROJECT_DIR$/README.md">
-                <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                  <state split_layout="SPLIT">
-                    <first_editor relative-caret-position="288">
-                      <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                      <folding>
-                        <element signature="e#147#148#0" expanded="true" />
-                        <element signature="e#179#180#0" expanded="true" />
-                        <element signature="e#141#142#0" expanded="true" />
-                        <element signature="e#173#174#0" expanded="true" />
-                      </folding>
-                    </first_editor>
-                    <second_editor />
-                  </state>
-                </provider>
-              </entry>
-            </file>
-          </leaf>
-        </state>
-      </content>
-    </window>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/netty-10-nio-multi-port-chat">
@@ -147,15 +119,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/netty-3-mult-client/src/main/java/top/dzou/netty/server/ChatServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-3-mult-client/src/main/java/top/dzou/netty/server/ChatServerHandler.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -246,12 +209,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-8-grpc-stream-demo/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor>
                 <caret selection-end-line="5" selection-end-column="7" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-2016">
+                <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -363,8 +338,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
     <option name="width" value="1680" />
-    <option name="height" value="1080" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -789,7 +765,7 @@
       <workItem from="1573217950511" duration="3153000" />
       <workItem from="1573296680561" duration="1832000" />
       <workItem from="1573662590250" duration="867000" />
-      <workItem from="1573705933270" duration="1143000" />
+      <workItem from="1573705933270" duration="1553000" />
     </task>
     <task id="LOCAL-00001" summary="netty-learning">
       <created>1572180864531</created>
@@ -823,11 +799,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157924000" />
+    <option name="totallyTimeSpent" value="158334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-1" width="1682" height="1052" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49544418" visible="true" weight="0.19913687" />
       <window_info id="Structure" order="1" sideWeight="0.5045558" side_tool="true" weight="0.18434033" />
@@ -844,7 +819,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Build" order="8" sideWeight="0.49946293" weight="0.30593607" />
       <window_info anchor="bottom" id="Messages" order="9" sideWeight="0.49946293" weight="0.32793522" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33789954" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33789954" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50053704" side_tool="true" weight="0.31387666" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -1200,14 +1175,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="288">
+          <first_editor relative-caret-position="-2016">
             <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-            <folding>
-              <element signature="e#147#148#0" expanded="true" />
-              <element signature="e#179#180#0" expanded="true" />
-              <element signature="e#141#142#0" expanded="true" />
-              <element signature="e#173#174#0" expanded="true" />
-            </folding>
           </first_editor>
           <second_editor />
         </state>
