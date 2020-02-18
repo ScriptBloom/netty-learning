@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/netty.iml" filepath="$PROJECT_DIR$/.idea/netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-1-server.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-1-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-1-socket.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-1-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-1-socket.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-1-socket.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-1-socket.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-1-socket.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-10-nio-multi-port-chat.test.iml" />
@@ -11,6 +14,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-11-wxq-websocket-socket-chat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-11-wxq-websocket-socket-chat.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-11-wxq-websocket-socket-chat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-11-wxq-websocket-socket-chat.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-2-socket.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-2-socket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-2-socket.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-2-socket.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-2-socket.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-2-socket.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-3-mult-client.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-3-mult-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-3-mult-client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-3-mult-client.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-3-mult-client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-3-mult-client.test.iml" />
@@ -34,8 +39,21 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-9-nio.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-9-nio.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-first.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-first.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-first.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-first.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-learning.iml" filepath="$PROJECT_DIR$/netty-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-learning.netty-7-grpc-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-learning.netty-7-grpc-demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/netty-learning.netty-7-grpc-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/netty-learning.netty-7-grpc-demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-10-nio-multi-port-chat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-10-nio-multi-port-chat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-10-nio-multi-port-chat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-10-nio-multi-port-chat.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-11-wxq-websocket-socket-chat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-11-wxq-websocket-socket-chat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-11-wxq-websocket-socket-chat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-11-wxq-websocket-socket-chat.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-4-heartBeat.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-4-heartBeat.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-4-heartBeat.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-4-heartBeat.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-5-websocket.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-5-websocket.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-5-websocket.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-5-websocket.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-7-grpc-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-7-grpc-demo.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-7-grpc-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-7-grpc-demo.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-9-nio.main.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-9-nio.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/top.dzou.netty-9-nio.test.iml" filepath="$PROJECT_DIR$/.idea/modules/top.dzou.netty-9-nio.test.iml" />
     </modules>
   </component>
 </project>

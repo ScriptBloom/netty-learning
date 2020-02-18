@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="netty-11-wxq-websocket-socket-chat" external.linked.project.path="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" external.root.project.path="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" rootProjectPath="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="top.dzou" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="netty-11-wxq-websocket-socket-chat" linkedProjectPath="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" rootProjectPath="$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../netty-11-wxq-websocket-socket-chat">

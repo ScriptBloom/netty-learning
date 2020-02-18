@@ -1,0 +1,3 @@
+rootProject.name = 'netty-learning'
+include ":netty-first",":netty-2-socket",":netty-3-nult-client",":netty-4-heartBeat",":netty-5-websocket",":netty-6-google-protobuf",":netty-7-grpc-demo",":netty-8-grpc-stream-demo",":netty-9-nio",":netty-10-nio-multi-port-chat",":netty-11-wxq-websocket-socket-chat"
+

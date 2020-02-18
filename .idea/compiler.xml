@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <annotationProcessing>
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="netty-6-google-protobuf" />
-      </profile>
-    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="java.netty-2-socket.main" target="1.8" />
       <module name="java.netty-2-socket.test" target="1.8" />
+      <module name="netty-1-socket.main" target="1.8" />
+      <module name="netty-1-socket.test" target="1.8" />
       <module name="netty-10-nio-multi-port-chat.main" target="1.8" />
       <module name="netty-10-nio-multi-port-chat.test" target="1.8" />
       <module name="netty-11-wxq-websocket-socket-chat.main" target="1.8" />
@@ -35,10 +29,25 @@
       <module name="netty-9-nio.test" target="1.8" />
       <module name="netty-first.main" target="1.8" />
       <module name="netty-first.test" target="1.8" />
+      <module name="netty-learning" target="1.5" />
+      <module name="netty-learning.netty-7-grpc-demo.main" target="1.8" />
+      <module name="netty-learning.netty-7-grpc-demo.test" target="1.8" />
+      <module name="top.dzou.netty-10-nio-multi-port-chat.main" target="1.8" />
+      <module name="top.dzou.netty-10-nio-multi-port-chat.test" target="1.8" />
+      <module name="top.dzou.netty-11-wxq-websocket-socket-chat.main" target="1.8" />
+      <module name="top.dzou.netty-11-wxq-websocket-socket-chat.test" target="1.8" />
       <module name="top.dzou.netty-2-socket.main" target="1.8" />
       <module name="top.dzou.netty-2-socket.test" target="1.8" />
+      <module name="top.dzou.netty-4-heartBeat.main" target="1.8" />
+      <module name="top.dzou.netty-4-heartBeat.test" target="1.8" />
+      <module name="top.dzou.netty-5-websocket.main" target="1.8" />
+      <module name="top.dzou.netty-5-websocket.test" target="1.8" />
       <module name="top.dzou.netty-7-grpc-demo.main" target="1.8" />
       <module name="top.dzou.netty-7-grpc-demo.test" target="1.8" />
+      <module name="top.dzou.netty-8-grpc-stream-demo.main" target="1.8" />
+      <module name="top.dzou.netty-8-grpc-stream-demo.test" target="1.8" />
+      <module name="top.dzou.netty-9-nio.main" target="1.8" />
+      <module name="top.dzou.netty-9-nio.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

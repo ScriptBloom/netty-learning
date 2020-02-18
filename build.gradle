@@ -1,0 +1,18 @@
+apply plugin: 'java'
+buildscript {
+    // 如果需要的话，从https://jcenter.bintray.com/下载code reposities。
+    repositories {
+        jcenter()
+    }
+}
+
+// 该配置会被应用到所有的子工程。
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}

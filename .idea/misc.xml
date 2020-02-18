@@ -7,7 +7,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/netty-6-google-protobuf/pom.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/netty-6-google-protobuf/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

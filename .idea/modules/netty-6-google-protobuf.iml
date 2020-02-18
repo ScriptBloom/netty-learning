@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="netty-6-google-protobuf" external.linked.project.path="$MODULE_DIR$/../../netty-6-google-protobuf" external.root.project.path="$MODULE_DIR$/../../netty-6-google-protobuf" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="" externalSystemModuleVersion="unspecified" linkedProjectId="netty-6-google-protobuf" linkedProjectPath="$MODULE_DIR$/../../netty-6-google-protobuf" rootProjectPath="$MODULE_DIR$/../../netty-6-google-protobuf" />
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="true">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+    <output url="file://$MODULE_DIR$/../../netty-6-google-protobuf/target/classes" />
+    <output-test url="file://$MODULE_DIR$/../../netty-6-google-protobuf/target/test-classes" />
     <content url="file://$MODULE_DIR$/../../netty-6-google-protobuf">
+      <sourceFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/src/main/java" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/build" />
       <excludeFolder url="file://$MODULE_DIR$/../../netty-6-google-protobuf/out" />
@@ -10,6 +12,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Bundled Protobuf Distribution" level="application" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java-util:3.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:20.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.7" level="project" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.42.Final" level="project" />
   </component>
 </module>

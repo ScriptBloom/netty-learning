@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="netty-2-socket:main" external.linked.project.path="$MODULE_DIR$/../../netty-2-socket" external.root.project.path="$MODULE_DIR$/../../netty-2-socket" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../netty-2-socket" rootProjectPath="$MODULE_DIR$/../../netty-2-socket" />
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../netty-2-socket/out/production/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../netty-2-socket/src/main">
       <sourceFolder url="file://$MODULE_DIR$/../../netty-2-socket/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../netty-2-socket/src/main/resources" type="java-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-all:4.0.4.Final" level="project" />
   </component>
 </module>

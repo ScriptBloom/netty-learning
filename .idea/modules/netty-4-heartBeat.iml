@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module external.linked.project.id="netty-4-heartBeat" external.linked.project.path="$MODULE_DIR$/../../netty-4-heartBeat" external.root.project.path="$MODULE_DIR$/../../netty-4-heartBeat" external.system.id="GRADLE" external.system.module.group="top.dzou" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
-  <component name="ExternalSystem" linkedProjectPath="$MODULE_DIR$/../../netty-5-websocket" rootProjectPath="$MODULE_DIR$/../../netty-5-websocket" />
+  <component name="ExternalSystem" externalSystem="GRADLE" externalSystemModuleGroup="top.dzou" externalSystemModuleVersion="1.0-SNAPSHOT" linkedProjectId="netty-4-heartBeat" linkedProjectPath="$MODULE_DIR$/../../netty-4-heartBeat" rootProjectPath="$MODULE_DIR$/../../netty-4-heartBeat" />
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../netty-4-heartBeat">

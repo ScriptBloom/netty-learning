@@ -1,7 +1,0 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Sun Oct 13 21:24:51 CST 2019
-jsonassert-1.5.0.jar>nexus-aliyun=
-jsonassert-1.5.0-sources.jar>alimaven=
-jsonassert-1.5.0.jar>alimaven=
-jsonassert-1.5.0.pom>alimaven=
-jsonassert-1.5.0.pom>nexus-aliyun=
